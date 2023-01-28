@@ -11,7 +11,8 @@ function Square({ idx, marker, winningIdxs, onBoardMarkerChange }) {
   return (
     <>
       <button className='w-32 h-32 text-3xl cursor-pointer border border-gray-600
-       hover:bg-slate-800 text-cyan-500 transition-transform ease-in-out duration-125'
+       hover:bg-slate-800 text-cyan-500 transition-transform ease-in-out duration-125
+       hover:scale-y-105'
         ref={buttonElement} onClick={handleButtonClick} disabled={(marker.disable)}>
         <div className="text-slate-800 cursor-pointer 
          hover:text-cyan-500 scale-150 transition-transform ease-in-out">
